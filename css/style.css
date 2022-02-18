@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*Header Section Css*/
+header{
+	width: 100%;
+	padding: 0px auto;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.img_menu{
+	display: flex;
+}
+
+.img_menu img{
+	margin-right: 50px;
+}
+
+.img_menu ul{
+	display: flex;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.img_menu ul li{
+	margin-right: 30px;
+}
+
+.img_menu ul li a{
+	color: #292640;
+	font-family: quicksand, sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.header_part{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_right input{
+	margin-top: 15px;
+	padding: 13px 20px;
+	font-size: 14px;
+	color: white;
+	background-color: #ff6162;
+	border: none;
+	font-family: quicksand, sans-serif;
+	font-weight: 900;
+	border-radius: 4px;
+}
+
+
+/*Banner Section Css*/
+.banner{
+	width: 100%;
+	margin: 100px auto;
+}
+
+.banner_part{
+	display: flex;
+	padding-top: 40px;
+}
+
+.banner_left h2{
+	font-family: yoon-a-yoonche, sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	color: #292640;
+	width: 70%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.banner_left p{
+	font-family: yoon-a-yoonche, sans-serif;
+	font-size: 16px;
+	color: #A8A8A8;
+	margin-left: 10px;
+	width: 75%;
+	line-height: 1.4;
+}
+
+.banner_left, .banner_right{
+	flex-basis: 50%;
+}
+
+.banner_right img{
+	width: auto;
+	margin-top: -30px;
+}
+
+
+/*Demo Website Section Css*/
+.demo_website{
+	width: 100%;
+	margin: 50px 20px;
+}
+
+.demo_top{
+	width: 100%;
+	padding: 150px 0px 30px 0px;
+	text-align: center;
+}
+
+.demo_top h3{
+	font-family: yoon-a-yoonche, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	color: #292640;
+	padding-bottom: 8px;
+}
+
+.demo_top p{
+	color: #A8A8A8;
+	font-size: 14px;
+	font-family: 'Akaya Telivigala', cursive;
+	width: 30%;
+	margin: 0px auto;
+}
+
+.demo_bottom{
+	display: grid;
+    grid-template-columns: 295px 292px 295px 295px;
+    grid-gap: 30px;
+    justify-content: center;
+	
+}
+	
+.demo_bottom img{
+	border: 1px ridge;
+    width: 100%;
+    object-fit: fill;
+   }
+
+.img_label p{
+	text-align: center;
+	margin-top: 8px;
+	font-family: yoon-a-yoonche, sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.70);
+	margin-bottom: 50px;
+}
+
+/*Middle Line Css*/
+.middle_line{
+	height: 50px;
+	width: 1.6px;
+	background-color: black;
+	margin: 0px auto;
+	margin-bottom: 150px;
+	background-color: rgba(0, 0, 0, 0.20);
+}
+
+/*Feature Section Css*/
+.feature_part{
+	width: 100%;
+	padding: 0px auto;
+}
+
+.feature_top{
+	text-align: center;
+}
+
+.feature_top h3{
+	font-family: yoon-a-yoonche, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	color: #292640;
+	padding-bottom: 5px;
+}
+
+.feature_top p{
+	color: #A8A8A8;
+	font-size: 14px;
+	font-family: 'Akaya Telivigala', cursive;
+	width: 30%;
+	margin: 0px auto;
+	margin-bottom: 40px;
+}
+
+.feature_bottom{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 200px 200px 200px;
+	grid-gap: 30px 30px;
+	justify-content: center;
+}
+
+.feature_bottom h3{
+	width: 100%;
+	text-align: center;
+	font-family: yoon-a-yoonche, sans-serif;
+	color: #292640;
+	font-size: 14px;
+	font-weight: 750;
+	margin-top: 10px;
+}
+
+.feature_bottom p{
+	width: 85%;
+	margin: 0px auto;
+	font-size: 13px;
+	font-family: quicksand, sans-serif;
+	font-weight: 500;
+	color: #909090;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.feature_color{
+	background-color: #f3f3f3;
+	border-radius: 4px;
+}
+
+.grid i{
+	margin-left: 130px;
+	width: 45px;
+	height: 45px;
+	background-color: white;
+	border-radius: 100%;
+	line-height: 1.8;
+	text-align: center;
+	font-size: 25px;
+	color: #ff6162;
+	margin-top: 20px;
+}
+
+/*Footer Section Css*/
+footer{
+	width: 100%;
+	height: 450px;
+	background-color: #292640;
+}
+
+.footer h3{
+	color: white;
+	font-family: yoon-a-yoonche, sans-serif;
+	width: 35%;
+	margin: 0px auto;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 750;
+}
+
+.footer img{
+	width: 6%;
+	height: auto;
+	padding: 0px auto;
+	margin-top: 30px;
+	background-color: white;
+	background: ;
+}
+
+.footer div{
+	text-align: center;
+}
+
+.footer_button{
+	text-align: center;	
+}
+
+.footer_button input{
+	margin-top: 40px;
+	padding: 17px 18px;
+	font-size: 11px;
+	color: white;
+	background-color: #ff6162;
+	border: none;
+	font-family: yoon-a-yoonche, sans-serif;
+	font-weight: 600;
+	border-radius: 4px;
+}
