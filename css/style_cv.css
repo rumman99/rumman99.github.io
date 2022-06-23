@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Css */
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+/*  */
+
+.cv{
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.cv_section{
+    display: flex;
+    max-width: 400vh;
+    min-height: 180vh;
+    background-color: rgb(243, 233, 233);
+}
+
+.cv_left{
+    width: 50vh;
+    min-height: 180vh;
+    background-color: #957dad;
+}
+
+.cv_left img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: 4px solid rgb(238, 213, 213);
+    border-collapse: separate;
+    padding: 6px;
+    margin-left: 100px;
+    margin-top: 50px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.cv_left h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(43, 40, 40);
+    font-size: 26px;
+}
+
+.cv_left p{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5b1616;
+}
+
+.cv_left i{
+    color:#0f0f85;
+    font-size: 32px;
+    padding-right: 20px;
+}
+
+.icon{
+    text-align: center;
+    margin-top: 20px
+}
+
+.contact{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.contact i{
+    font-size: 20px;
+    color: #0f0f85;
+    margin-left: -150px;
+}
+
+.contact p{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(15, 10, 10);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.contact h2{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(8, 7, 7);
+    font-family: 'Alfa Slab One', cursive;
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+.objective{
+    text-align: center;
+}
+
+.objective h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #5b1616;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: wavy;
+    border-bottom: 1px solid black;
+    border-radius: 30%;
+    padding-bottom: 40px;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    margin-bottom: 20px;
+}
+
+.objective i{
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.objective p{
+    font-size: 15px;
+    color: rgb(7, 8, 8);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 200;
+    text-transform: lowercase;
+    width: 95%;
+    padding-left: 15px;
+}
+
+.GN h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #5b1616;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: wavy;
+    border-bottom: 1px solid black;
+    border-radius: 30%;
+    padding-bottom: 40px;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+.GN i{
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.GN h6{
+    text-align: left;
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+    padding-left: 60px;
+    text-decoration: underline;
+}
+
+.GN p{
+    font-size: 15px;
+    color: rgb(7, 8, 8);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 200;
+    text-transform: lowercase;
+    width: 95%;
+    text-align: left;
+    padding-left: 60px;
+    text-transform: capitalize;
+}
+
+.interests h5{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #5b1616;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: wavy;
+    border-bottom: 1px solid black;
+    border-radius: 30%;
+    padding-bottom: 40px;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    margin-bottom: 40px;
+}
+
+.interests h5 i{
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.interests i{
+    font-size: 25px;
+    color: #0f0f85;
+    padding-right: 10px;
+}
+
+.interests p{
+    text-align: left;
+    padding-left: 100px;
+    font-size: 16px;
+    color: rgb(7, 1, 1);
+}
+
+.cv_right .left{
+    padding: 80px 0px 0px 60px;
+}
+
+.cv_right{
+    display: flex;
+}
+
+.left h4{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #5b1616;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: wavy;
+    padding-bottom: 70px;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+.left p{
+    font-size: 16px;
+    color: rgb(7, 8, 8);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.left i{
+    padding-right: 10px;
+    margin-left: -50px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #0f0f85;
+}
+
+.right .edu{
+    margin-top: 220px;
+    margin-left: 200px;
+}
+
+.right p{
+    font-size: 16px;
+    color: rgb(7, 8, 8);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.edu span{
+    font-size: 14px;
+    color: rgb(7, 8, 8);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+}
+
+.ex{
+    margin-top: 488px;
+    margin-left: -220px;
+}
+
+.ex p{
+    font-size: 16px;
+    color: rgb(7, 8, 8);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.progress{
+    margin-top: 798px;
+    margin-left: -160px;
+    line-height: 62px;
+}
+
+label{
+    padding-left: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 12px;
+    font-weight: lighter;
+}
